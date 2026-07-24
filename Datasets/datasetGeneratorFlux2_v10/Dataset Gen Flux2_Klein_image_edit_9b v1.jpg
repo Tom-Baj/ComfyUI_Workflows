@@ -1,0 +1,374 @@
+{
+  "76": {
+    "inputs": {
+      "image": "2026-01-26/seedvr2/admajic_1024_final_0028.png [output]"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "103": {
+    "inputs": {
+      "noise_seed": 6574461913578
+    },
+    "class_type": "RandomNoise",
+    "_meta": {
+      "title": "RandomNoise"
+    }
+  },
+  "113": {
+    "inputs": {
+      "filename_prefix": "P0rtia_",
+      "output_folder": [
+        "116",
+        0
+      ],
+      "caption_file_extension": ".txt",
+      "images": [
+        "75:65",
+        0
+      ],
+      "caption": [
+        "117",
+        0
+      ]
+    },
+    "class_type": "SaveImageKJ",
+    "_meta": {
+      "title": "Save Image KJ"
+    }
+  },
+  "116": {
+    "inputs": {
+      "text": "/media/admajic/D_DRIVE/output/AI_Dataset/P0rtia_2_Flux.2_Klein_v2"
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "Text Multiline"
+    }
+  },
+  "117": {
+    "inputs": {
+      "string_a": [
+        "118",
+        0
+      ],
+      "string_b": [
+        "120",
+        0
+      ],
+      "delimiter": ", "
+    },
+    "class_type": "StringConcatenate",
+    "_meta": {
+      "title": "Concatenate"
+    }
+  },
+  "118": {
+    "inputs": {
+      "text": "P0rtia\n"
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "Text Multiline"
+    }
+  },
+  "119": {
+    "inputs": {
+      "string_a": [
+        "118",
+        0
+      ],
+      "string_b": [
+        "120",
+        0
+      ],
+      "delimiter": "_"
+    },
+    "class_type": "StringConcatenate",
+    "_meta": {
+      "title": "Concatenate"
+    }
+  },
+  "120": {
+    "inputs": {
+      "prepend_text": "",
+      "multiline_text": "Photorealistic profile view of the subject's face from the left side, subject turned 90 degrees showing left profile, against a plain white wall background.\nHyperrealistic profile view of the subject's face from the right side, subject turned 90 degrees showing right profile, against a clean white wall.\nDSLR photograph, three-quarter view of the subject's face angled 45 degrees, looking towards the camera, face partially turned, against a plain white wall.\nUltra-realistic three-quarter view of the subject angled 45 degrees, looking slightly away from the camera, face partially turned from camera, against a seamless white wall.\nLow-angle shot from below, camera looking up at the subject's face with a neutral expression, upward angle, against a plain white wall.\nHigh-angle shot from above, camera looking down at the subject's face, downward angle, against a stark white wall.\nPhotorealistic headshot, subject facing directly towards camera with head tilted slightly to the side, looking directly at the camera, frontal view, against a white wall.\nHyperrealistic shot of the subject from behind, turning head to look over their shoulder at the camera, back view with head turned, against a white wall background.\nDramatic Rembrandt lighting portrait, with one side of the subject's face illuminated, from a three-quarter angle 45 degrees from camera against a white wall.\nExtreme close-up shot from a slight angle, camera positioned close focusing on the subject's facial features, against a white wall.\nPhotorealistic headshot, subject facing camera directly with camera tilted at Dutch angle creating diagonal composition, against a plain white wall background.\nDSLR photo of the subject in three-quarter turn, looking up and away past the camera, face angled 45 degrees, against a white wall.\nUltra-realistic shot of the subject looking down and to the side, face turned away from camera at angle, downward gaze, against a white wall.\nHyperrealistic shot from behind the subject, rear view as they turn their head to the side to look towards the camera, back of head visible, against a white wall.\nPhotorealistic portrait from a 45-degree angle to the side, three-quarter view showing the face and shoulders, against a seamless white wall.\nMacro shot from a three-quarter perspective angled 45 degrees, with a shallow depth of field focusing sharply on the subject's eyes, against a white wall.\nWorm's-eye view from ground level looking directly upward at the subject's chin and face, extreme low angle, against a plain white wall.\nBird's-eye view from directly above looking down on the top of the subject's head as they look up towards the camera, overhead angle, against a white wall.\nPhotorealistic shot of the subject with their head tilted back, chin raised exposing the neck and looking upwards, head angled up, against a white wall.\nRealistic headshot, subject facing camera directly with chin tucked down, looking up at the camera from under their brow, lowered chin raised eyes, against a white wall.\nPhotorealistic full body shot, subject standing straight facing camera directly with arms at sides, frontal view full figure, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nHyperrealistic full body portrait, subject in three-quarter turn angled 45 degrees with weight on one leg, partial side view, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nDSLR full body shot, subject walking towards camera with natural stride, frontal view in motion, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nUltra-realistic full body portrait, subject in profile view turned 90 degrees standing with hands in pockets, side view full figure, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nPhotorealistic full body shot from low angle below, subject standing looking down at camera, upward camera angle full figure, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nHyperrealistic full body portrait from high angle above, subject standing looking up at camera, downward camera angle full figure, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nDSLR full body shot, subject leaning against white wall with arms crossed, frontal view relaxed pose, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nUltra-realistic full body portrait, subject in walking pose mid-stride from three-quarter angle 45 degrees, dynamic side view, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nPhotorealistic full body shot from back, rear view of subject looking over shoulder at camera, back view with head turned, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nHyperrealistic full body portrait, subject sitting on floor with legs crossed looking at camera, seated frontal view, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nPhotorealistic 3/4 body shot from waist up, subject facing camera directly with arms relaxed at sides, frontal view torso, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nHyperrealistic 3/4 body portrait from waist up, subject in three-quarter turn angled 45 degrees looking over shoulder, partial side view torso, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nDSLR 3/4 body shot from chest up, subject with arms crossed casually, angled 45 degrees from camera, three-quarter view upper body, wearing black ribbed strapless bandeau top, against a plain white wall background.\nUltra-realistic 3/4 body portrait from waist up, subject leaning slightly forward towards camera, frontal view with forward lean, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nPhotorealistic 3/4 body shot from hips up, subject in profile view turned 90 degrees with one arm visible at side, side view torso, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nHyperrealistic 3/4 body portrait from waist up, subject facing camera with weight shifted to one leg in casual stance, frontal view casual pose, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nDSLR 3/4 body shot from torso up, subject with hands on hips facing camera directly, frontal view confident pose, wearing black ribbed strapless bandeau top and black high-waisted dress pants, against a plain white wall background.\nUltra-realistic 3/4 body portrait from chest up, subject in three-quarter view angled 45 degrees with one shoulder forward, partial side view upper body, wearing black ribbed strapless bandeau top, against a plain white wall background.\n",
+      "append_text": "",
+      "start_index": 0,
+      "max_rows": 1000
+    },
+    "class_type": "CR Prompt List",
+    "_meta": {
+      "title": "📜 CR Prompt List"
+    }
+  },
+  "121": {
+    "inputs": {
+      "images": [
+        "75:65",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "75:61": {
+    "inputs": {
+      "sampler_name": "euler"
+    },
+    "class_type": "KSamplerSelect",
+    "_meta": {
+      "title": "KSamplerSelect"
+    }
+  },
+  "75:74": {
+    "inputs": {
+      "text": [
+        "120",
+        0
+      ],
+      "clip": [
+        "75:83",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Positive Prompt)"
+    }
+  },
+  "75:72": {
+    "inputs": {
+      "vae_name": "flux2-vae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "Load VAE"
+    }
+  },
+  "75:83": {
+    "inputs": {
+      "clip_name": "unsloth/Qwen3-8B-GGUF/Qwen3-8B-Q8_0.gguf",
+      "type": "stable_diffusion"
+    },
+    "class_type": "CLIPLoaderGGUF",
+    "_meta": {
+      "title": "CLIPLoader (GGUF)"
+    }
+  },
+  "75:82": {
+    "inputs": {
+      "model_name": "flux.2/flux-2-klein-9b-Q8_0.gguf",
+      "extra_model_name": "none",
+      "dequant_dtype": "default",
+      "patch_dtype": "default",
+      "patch_on_device": true,
+      "enable_fp16_accumulation": true,
+      "attention_override": "sageattn"
+    },
+    "class_type": "GGUFLoaderKJ",
+    "_meta": {
+      "title": "GGUFLoaderKJ"
+    }
+  },
+  "75:65": {
+    "inputs": {
+      "samples": [
+        "75:64",
+        0
+      ],
+      "vae": [
+        "75:72",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE Decode"
+    }
+  },
+  "75:64": {
+    "inputs": {
+      "noise": [
+        "103",
+        0
+      ],
+      "guider": [
+        "75:63",
+        0
+      ],
+      "sampler": [
+        "75:61",
+        0
+      ],
+      "sigmas": [
+        "75:62",
+        0
+      ],
+      "latent_image": [
+        "75:66",
+        0
+      ]
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    }
+  },
+  "75:73": {
+    "inputs": {
+      "noise_seed": 175972461625795
+    },
+    "class_type": "RandomNoise",
+    "_meta": {
+      "title": "RandomNoise"
+    }
+  },
+  "75:63": {
+    "inputs": {
+      "cfg": 1,
+      "model": [
+        "75:82",
+        0
+      ],
+      "positive": [
+        "75:79:79",
+        0
+      ],
+      "negative": [
+        "75:79:76",
+        0
+      ]
+    },
+    "class_type": "CFGGuider",
+    "_meta": {
+      "title": "CFGGuider"
+    }
+  },
+  "75:66": {
+    "inputs": {
+      "width": [
+        "75:81",
+        0
+      ],
+      "height": [
+        "75:81",
+        1
+      ],
+      "batch_size": 1
+    },
+    "class_type": "EmptyFlux2LatentImage",
+    "_meta": {
+      "title": "Empty Flux 2 Latent"
+    }
+  },
+  "75:67": {
+    "inputs": {
+      "text": "makeup, plastic surgery, CGI, painting, drawing, filter, face smoothing",
+      "clip": [
+        "75:83",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Negative Prompt)"
+    }
+  },
+  "75:81": {
+    "inputs": {
+      "image": [
+        "75:80",
+        0
+      ]
+    },
+    "class_type": "GetImageSize",
+    "_meta": {
+      "title": "Get Image Size"
+    }
+  },
+  "75:80": {
+    "inputs": {
+      "upscale_method": "lanczos",
+      "megapixels": 2,
+      "resolution_steps": 1,
+      "image": [
+        "76",
+        0
+      ]
+    },
+    "class_type": "ImageScaleToTotalPixels",
+    "_meta": {
+      "title": "ImageScaleToTotalPixels"
+    }
+  },
+  "75:62": {
+    "inputs": {
+      "steps": 4,
+      "width": [
+        "75:81",
+        0
+      ],
+      "height": [
+        "75:81",
+        1
+      ]
+    },
+    "class_type": "Flux2Scheduler",
+    "_meta": {
+      "title": "Flux2Scheduler"
+    }
+  },
+  "75:79:76": {
+    "inputs": {
+      "conditioning": [
+        "75:67",
+        0
+      ],
+      "latent": [
+        "75:79:78",
+        0
+      ]
+    },
+    "class_type": "ReferenceLatent",
+    "_meta": {
+      "title": "ReferenceLatent"
+    }
+  },
+  "75:79:78": {
+    "inputs": {
+      "pixels": [
+        "75:80",
+        0
+      ],
+      "vae": [
+        "75:72",
+        0
+      ]
+    },
+    "class_type": "VAEEncode",
+    "_meta": {
+      "title": "VAE Encode"
+    }
+  },
+  "75:79:79": {
+    "inputs": {
+      "conditioning": [
+        "75:74",
+        0
+      ],
+      "latent": [
+        "75:79:78",
+        0
+      ]
+    },
+    "class_type": "ReferenceLatent",
+    "_meta": {
+      "title": "ReferenceLatent"
+    }
+  }
+}

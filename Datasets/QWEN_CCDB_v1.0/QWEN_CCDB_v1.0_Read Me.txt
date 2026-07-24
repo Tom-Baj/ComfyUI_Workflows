@@ -1,0 +1,38 @@
+ComfyUI beginner friendly QWEN Image Edit GGUF Consistent Character Dataset Builder Workflow by SarcasticTOFU
+
+This is a very simple ComfyUI beginner friendly QWEN Image Edit workflow that will work with with very simple text editing instructions in natural language to build a consistent character dataset from your desired reference image so that you can build a character LORA later. It does not have any lengthy process that you may have been seen for other consistent character dataset builder you may have seen using SDXL or Flux. QWEN Image Edit is very good on it's own to conserve and reuse character details from reference image to provide output ( challenging part is to figure out your precise sampler and scheduler ).  You need a Hugging Face account to download your necessary QWEN Image files (Details are mentioned below). Make sure you install GGUF addon for ComfyUI using ComfyUI manager and place the correct files in correct places. Also check out my other workflows for SD 1.5 + SDXL 1.0, HiDream, WAN and Flux.
+
+How to use this -
+
+#1. Just select your desired QWEN Image models first 
+
+#2. now select your input character reference image and set the character's first and last name  
+
+#3. on next step enter your image editing instructions - Batch character prompts like "Make this person" followed by other details. Also add common negative filters or use the existing one provided.
+
+#4. after this select image sampling methods, CFG, steps etc. settings (this part is tricky, if you want you can just have the values as it is)
+
+#5. finally press the run button to generate. That's it.. 
+
+** I have given two reference images (1 SFW and 1 NSFW, both with their character builder prompts you can try out or modify, 60 for each)  for you already in the zip file containing this workflow along with a text file with links to any downloads you may need to do for my other workflows
+Enjoy!
+
+## QWEN Image Edit Models
+=========================================================================================================================
+### Download Links for QWEN Image Edit Checkpoint
+https://huggingface.co/QuantStack/Qwen-Image-Edit-GGUF/resolve/main/Qwen_Image_Edit-Q2_K.gguf
+
+### Download Links for QWEN Image Encoders
+https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
+
+### Download Links for QWEN Image VAE
+https://huggingface.co/QuantStack/Qwen-Image-Edit-GGUF/resolve/main/VAE/Qwen_Image-VAE.safetensors
+
+=========================================================================================================================
+### This workflow also uses the following QWEN Image LORAs from CivitAI -
+
+Qwen Lightning LoRA
+https://civitai.com/models/1854805?modelVersionId=2099128
+
+Reality Simulator
+https://civitai.com/models/1886273?modelVersionId=2135085
